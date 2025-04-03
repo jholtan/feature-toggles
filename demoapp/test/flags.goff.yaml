@@ -1,8 +1,10 @@
-{
-  "message":
-    {
-      "variations": { "on": true, "off": false },
-      "disable": true,
-      "defaultRule": { "variation": "off" },
-    },
-}
+message:
+  variations:
+    on: true
+    off: false
+  targeting:
+    - name: "Target Users"
+      query: userId eq "1234"
+      variation: "on"
+  defaultRule:
+    variation: "off"
