@@ -4,7 +4,7 @@ message:
     off: false
   targeting:
     - name: "Target Users"
-      query: userId eq "1234"
+      query: userId eq ["1234", "1235"]
       variation: "on"
   defaultRule:
     variation: "off"
