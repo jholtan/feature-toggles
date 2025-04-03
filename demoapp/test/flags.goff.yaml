@@ -1,0 +1,8 @@
+{
+  "message":
+    {
+      "variations": { "on": true, "off": false },
+      "disable": true,
+      "defaultRule": { "variation": "off" },
+    },
+}
